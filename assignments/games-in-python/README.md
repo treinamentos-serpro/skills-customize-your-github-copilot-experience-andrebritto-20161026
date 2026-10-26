@@ -3,13 +3,14 @@
 
 Construa o clássico jogo de adivinhar palavras usando strings, loops e entrada de dados do usuário em Python.
 
-## 🎯 O Que Você Vai Construir
+## 🎯 Objetivo 
 
 Crie um jogo da Forca onde os jogadores adivinham letras para revelar uma palavra oculta antes de esgotar as tentativas.
 
 **Habilidades praticadas:** Manipulação de strings, loops, condicionais, seleção aleatória
 
-## ✅ Requisitos Obrigatórios
+## ✅ Tarefas
+### Requisitos Obrigatórios
 
 Seu jogo deve:
 - Selecionar palavras aleatoriamente de uma lista predefinida
