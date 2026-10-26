@@ -72,6 +72,20 @@
           "type": "python"
         }
       ]
+    },
+    {
+      "id": "automated-testing-unittest",
+      "title": "Automated Testing with unittest",
+      "description": "Practice testing Python functions with unittest, including boundary cases and expected exceptions.",
+      "path": "assignments/automated-testing-unittest",
+      "dueDate": "2026-11-02",
+      "attachments": [
+        {
+          "name": "Starter Code",
+          "file": "starter-code.py",
+          "type": "python"
+        }
+      ]
     }
   ]
 }
