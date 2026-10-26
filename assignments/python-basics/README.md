@@ -3,50 +3,55 @@
 
 ## 🎯 Objective
 
-Pratique habilidades fundamentais de programação em Python, incluindo entrada de dados do usuário, formatação de strings, operações aritméticas e instruções condicionais, implementando funções simples.
+Pratique conceitos fundamentais de Python ao ler dados do usuário, formatar mensagens, realizar operações aritméticas e usar instruções condicionais. Ao final, você terá implementado funções simples com entradas e resultados definidos.
 
 ## 📝 Tasks
 
-### 🛠️ Colete Dados e Monte uma Mensagem de Boas-vindas
+### 🛠️ Coletar dados e retornar uma saudação
 
 #### Descrição
-Escreva uma função chamada `welcome_message()` que interaja com o usuário e retorne uma mensagem de boas-vindas formatada.
+Implemente `welcome_message()` para solicitar dados ao usuário e retornar uma mensagem de boas-vindas formatada.
 
 #### Requisitos
-O programa completo deve:
+O programa concluído deve:
 
-- Solicitar o nome, a idade e a cor favorita do usuário usando `input()`.
-- Retornar uma mensagem no formato `Hello, [nome]! You are [idade] years old and your favorite color is [cor].`.
-- Para os dados `Alice`, `25` e `blue`, retornar:
+- Solicitar nome, idade e cor favorita usando `input()`.
+- Retornar uma string no formato `Hello, [nome]! You are [idade] years old and your favorite color is [cor].`, substituindo os trechos entre colchetes pelas respostas do usuário.
+- Para as respostas `Alice`, `25` e `blue`, retornar:
   ```text
   Hello, Alice! You are 25 years old and your favorite color is blue.
   ```
 
-### 🛠️ Some Dois Números
+### 🛠️ Ler dois números e calcular a soma
 
 #### Descrição
-Escreva uma função chamada `add_two_numbers()` que solicite ao usuário dois números e imprima a soma deles.
+Implemente `add_two_numbers()` para solicitar dois números inteiros ao usuário e imprimir a soma.
 
 #### Requisitos
-O programa completo deve:
+O programa concluído deve:
 
-- Solicitar ao usuário dois números.
-- Somar os números, imprimir o resultado e retorná-lo.
-- Para as entradas `3` e `7`, imprimir e retornar `10`.
+- Solicitar dois números inteiros usando `input()` e convertê-los para `int`.
+- Somar os números e imprimir o resultado.
+- Para as entradas `3` e `7`, imprimir `10`:
+  ```text
+  Digite o primeiro número: 3
+  Digite o segundo número: 7
+  10
+  ```
 
-### 🛠️ Verifique se um Número é Par
+### 🛠️ Verificar se um número é par
 
 #### Descrição
-Escreva uma função chamada `is_even()` que verifique se um número é par.
+Implemente `is_even(number)` para verificar se um número inteiro é par.
 
 #### Requisitos
-O programa completo deve:
+O programa concluído deve:
 
 - Receber um único argumento inteiro.
-- Retornar `True` se o número for par e `False` se for ímpar.
-- Exemplo de uso:
+- Retornar `True` quando o número for par e `False` quando for ímpar.
+- Produzir os resultados abaixo:
   ```python
-  print(is_even(4))  # True
-  print(is_even(5))  # False
+  is_even(4)  # True
+  is_even(5)  # False
   ```
 
