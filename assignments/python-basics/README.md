@@ -1,11 +1,10 @@
 
 # 📘 Assignment: Python Basics
 
-## 🎯 Objective
-
+## 🎯 Objetivo
 Pratique conceitos fundamentais de Python ao ler dados do usuário, formatar mensagens, realizar operações aritméticas e usar instruções condicionais. Ao final, você terá implementado funções simples com entradas e resultados definidos.
 
-## 📝 Tasks
+## 📝 Tarefas
 
 ### 🛠️ Coletar dados e retornar uma saudação
 
