@@ -1,5 +1,5 @@
 
-# 📘 Tarefa: Fundamentos de Python
+# 📘 Assignment: Python Basics
 
 ## 🎯 Objective
 
@@ -7,7 +7,7 @@ Pratique habilidades fundamentais de programação em Python, incluindo entrada 
 
 ## 📝 Tasks
 
-### 🛠️ Entrada de Dados e Formatação de Strings
+### 🛠️ Colete Dados e Monte uma Mensagem de Boas-vindas
 
 #### Descrição
 Escreva uma função chamada `welcome_message()` que interaja com o usuário e retorne uma mensagem de boas-vindas formatada.
@@ -15,13 +15,14 @@ Escreva uma função chamada `welcome_message()` que interaja com o usuário e r
 #### Requisitos
 O programa completo deve:
 
-- Solicitar ao usuário seu nome, idade e cor favorita usando `input()`.
-- Retornar uma mensagem de boas-vindas formatada como:
-  `Hello, [nome]! You are [idade] years old and your favorite color is [cor].`
-- Exemplo de saída:
-  `Hello, Alice! You are 25 years old and your favorite color is blue.`
+- Solicitar o nome, a idade e a cor favorita do usuário usando `input()`.
+- Retornar uma mensagem no formato `Hello, [nome]! You are [idade] years old and your favorite color is [cor].`.
+- Para os dados `Alice`, `25` e `blue`, retornar:
+  ```text
+  Hello, Alice! You are 25 years old and your favorite color is blue.
+  ```
 
-### 🛠️ Aritmética Básica
+### 🛠️ Some Dois Números
 
 #### Descrição
 Escreva uma função chamada `add_two_numbers()` que solicite ao usuário dois números e imprima a soma deles.
@@ -30,13 +31,10 @@ Escreva uma função chamada `add_two_numbers()` que solicite ao usuário dois n
 O programa completo deve:
 
 - Solicitar ao usuário dois números.
-- Somar os números.
-- Imprimir o resultado. Exemplo:
-  Digite o primeiro número: 3
-  Digite o segundo número: 7
-  10
+- Somar os números, imprimir o resultado e retorná-lo.
+- Para as entradas `3` e `7`, imprimir e retornar `10`.
 
-### 🛠️ Instruções Condicionais
+### 🛠️ Verifique se um Número é Par
 
 #### Descrição
 Escreva uma função chamada `is_even()` que verifique se um número é par.
